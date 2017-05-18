@@ -1,0 +1,16 @@
+# specify which platform the app is built for
+language: node
+
+# specify which version of the specifed platform should Travis use
+# Since pur specific version on node is only supported by Travis vis nvm,
+# so, we have specified the node version separately in .nvmrc in project root
+# node_js:
+#   - "4.8.0"
+
+# Since we're using yarn for package management, we can tell Travis to cache 
+# the installed yarn packages/files so that repeat builds are faster
+cache: yarn
+
+# Overide the default Travis behaviour of running npm test as the 
+# main build script
+script: npm run build
