@@ -1,7 +1,7 @@
 {
-  "name": "housing-uncomplex",
+  "name": "apartment-uncomplex-api",
   "description": "Housing complex management made uncomplex.",
-  "homepage": "https://github.com/journeymanavi/housing-uncomplex#readme",
+  "homepage": "https://github.com/journeymanavi/apartment-uncomplex-api",
   "author": "Avinash Agrawal",
   "license": "GPL-3.0",
   
@@ -10,11 +10,11 @@
 
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/journeymanavi/housing-uncomplex.git"
+    "url": "git@github.com:journeymanavi/apartment-uncomplex-api.git"
   },
 
   "bugs": {
-    "url": "https://github.com/journeymanavi/housing-uncomplex/issues"
+    "url": "https://github.com/journeymanavi/apartment-uncomplex-api/issues"
   },
   
   "keywords": [
