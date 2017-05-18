@@ -25,8 +25,8 @@
   ],
 
   "scripts": {
-    "test": "mocha",
-    "build": "npm run test"
+    "test": "mocha -c",
+    "build": "npm run test && package.sh"
   },
 
   "dependencies": {

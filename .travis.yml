@@ -13,3 +13,11 @@ cache: yarn
 # Overide the default Travis behaviour of running npm test as the 
 # main build script
 script: npm run build
+
+deploy:
+  provider: releases
+  api_key: $GITHUB_PERSONAL_ACCESS_TOKEN
+  file: ${TRAVIS_BUILD_DIR}/${TRAVIS_REPO_SLUG}-${TRAVIS_TAG}.tar.gz
+  skip_cleanup: true
+  on:
+    tags: true
