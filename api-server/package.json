@@ -1,0 +1,39 @@
+{
+  "name": "housing-uncomplex",
+  "description": "Housing complex management made uncomplex.",
+  "homepage": "https://github.com/journeymanavi/housing-uncomplex#readme",
+  "author": "Avinash Agrawal",
+  "license": "GPL-3.0",
+  
+  "version": "0.0.1",
+  "main": "server.js",
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/journeymanavi/housing-uncomplex.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/journeymanavi/housing-uncomplex/issues"
+  },
+  
+  "keywords": [
+    "housing",
+    "society",
+    "management",
+    "software"
+  ],
+
+  "scripts": {
+    "test": "mocha",
+    "build": "npm run test"
+  },
+
+  "dependencies": {
+    "express": "~4.15.0"
+  },
+
+  "devDependencies": {
+    "mocha": "^3.4.1"
+  }
+}
