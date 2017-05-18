@@ -1,2 +1,2 @@
-# housing-uncomplex
-Housing complex management made uncomplex.
+# apartment-uncomplex
+Apartment complex management made uncomplex.
