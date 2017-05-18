@@ -10,6 +10,9 @@ language: node_js
 # the installed yarn packages/files so that repeat builds are faster
 cache: yarn
 
+# Change permissions on the build script
+before_script: chmod 0755 ./package.sh
+
 # Overide the default Travis behaviour of running npm test as the 
 # main build script
 script: npm test && npm run build
