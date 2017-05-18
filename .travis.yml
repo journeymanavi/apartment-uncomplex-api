@@ -12,7 +12,7 @@ cache: yarn
 
 # Overide the default Travis behaviour of running npm test as the 
 # main build script
-script: npm run build
+script: npm test && npm run build
 
 deploy:
   provider: releases
