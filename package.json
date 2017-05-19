@@ -26,7 +26,13 @@
 
   "scripts": {
     "test": "mocha -c",
-    "build": "./package.sh"
+    "build": "./package.sh",
+    "tag": "npm run tag:patch",
+    "tag:patch": "npm version patch -a -m \"Tagging patch version %s\"",
+    "tag:minor": "npm version minor -a -m \"Tagging major version %s\"",
+    "tag:major": "npm version major -a -m \"Tagging minor version %s\"",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags"
   },
 
   "dependencies": {
