@@ -4,26 +4,21 @@
   "homepage": "https://github.com/journeymanavi/apartment-uncomplex-api",
   "author": "Avinash Agrawal",
   "license": "GPL-3.0",
-  
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "server.js",
-
   "repository": {
     "type": "git",
     "url": "git@github.com:journeymanavi/apartment-uncomplex-api.git"
   },
-
   "bugs": {
     "url": "https://github.com/journeymanavi/apartment-uncomplex-api/issues"
   },
-  
   "keywords": [
     "housing",
     "society",
     "management",
     "software"
   ],
-
   "scripts": {
     "test": "mocha -c",
     "build": "./package.sh",
@@ -34,11 +29,9 @@
     "preversion": "npm test",
     "postversion": "git push && git push --tags"
   },
-
   "dependencies": {
     "express": "~4.15.0"
   },
-
   "devDependencies": {
     "mocha": "^3.4.1"
   }
