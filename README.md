@@ -5,7 +5,7 @@ Apartment complex management made uncomplex.
 
 ---
 
-This project is being built as part of a self-study effort to learn web-app development using a modern JavaScript stack. The application usecase is that of an apartment complex management software.
+This project is being built as part of a self-study effort to learn web development using a modern JavaScript stack. The application usecase is that of an apartment complex management software.
 
 Most of the application features are incorporated with a primary aim to learn and exercise a specific feature of the chosen tech stack or the web platform in general.
 
