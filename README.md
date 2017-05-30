@@ -36,3 +36,9 @@ Services | &nbsp;
 <img alt="GitHub" src="https://camo.githubusercontent.com/fb782da4019ab66eeea35cc9b9ce73b2438b1688/687474703a2f2f646f632e72756c746f722e636f6d2f696d616765732f6769746875622d6c6f676f2e706e67" height="35"> | [GitHub](https://git-scm.com/) : Source Code Repository Hosting
 <img alt="Travis CI" src="https://cdn.travis-ci.com/images/logos/TravisCI-Mascot-1-20feeadb48fc2492ba741d89cb5a5c8a.png" height="35"> | [Travis CI](https://travis-ci.org/) : Continuous Integration Service
 <img alt="Digital Ocean" src="https://www.digitalocean.com/assets/media/logos-badges/png/DO_Logo_icon_blue-6edd7377.png" height="35"> | [Digital Ocean](https://www.digitalocean.com) : Deployment Infrastructure
+
+Deployment | &nbsp;
+-- | --
+<img alt="Ubuntu" src="http://design.ubuntu.com/wp-content/uploads/ubuntu-black-and-orange-on-white.gif" height="35"> | [Ubuntu](https://www.ubuntu.com/) : Server Operating System
+<img alt="NGINX" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/2000px-Nginx_logo.svg.png" height="20"> | [NGINX](https://nginx.org/en/) : Web and reverse proxy server
+<img alt="PM2" src="http://pm2.keymetrics.io/images/logo_pm2_little.png" height="20"> | [PM2](http://pm2.keymetrics.io/) : Node.js process manager
